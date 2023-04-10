@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { SupabaseService } from './services';
+import OrgChart from '@balkangraph/orgchart.js';
 
 @Component({
   selector: 'app-root',
